@@ -1,0 +1,5 @@
+<Project SDK="Microsoft.Build.Traversal/3.0.3">
+    <ItemGroup>
+        <ProjectReference InitialTargets="Clean" Include="**\*.*proj"/>
+    </ItemGroup>
+</Project>
